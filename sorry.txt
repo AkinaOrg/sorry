@@ -1,0 +1,13 @@
+# Запит користувача для введення числа
+user_input = int(input("Введіть число: "))
+
+# Починаємо з лічильника
+count = 0
+
+# Починаємо цикл while
+while count <= user_input:
+    if count % 2 == 0:
+        print(f"{count} is EVEN")
+    else:
+        print(f"{count} is ODD")
+    count += 1
